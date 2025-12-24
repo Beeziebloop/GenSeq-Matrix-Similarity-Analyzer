@@ -1,2 +1,10 @@
 # GenSeq Matrix Similarity Analyzer
-This repository holds the code for the GenSeq Matrix Similarity Analyzer. Do keep in mind that this is made with boundaries set in place and is only ever meant to serve for educational and modeling purposes for a project.
+This repository contains the Python code for the GenSeq Matrix Similarity Analyzer, a small computational tool designed to model and compare genetic sequences using matrix representations and linear algebraic similarity measures. The program was developed as part of a Linear Algebra and Geometry paper to explore how DNA and RNA sequences can be encoded as vectors and compared mathematically using Euclidean distance and cosine similarity.
+
+The program takes two genetic sequences of equal length as input, encodes them using one-hot encoding, and computes their Euclidean distance and cosine similarity in order to quantify their variation and structural similarity. This allows for a simplified, mathematical exploration of how genetic mutations affect similarity between virus strains.
+
+It should be noted that this code is built with several simplifying assumptions and boundaries in place, and is intended strictly for educational and modeling purposes. The program does not account for biological factors such as gene function, evolutionary pressure, biochemical effects of mutations, or insertion and deletion events. As such, the similarity values produced by this tool should not be interpreted as indicators of biological relatedness, pathogenicity, or evolutionary distance, but rather as mathematical measures of similarity between symbolic representations of genetic sequences.
+
+Additionally, the sequences used in this project are restricted to short segments (approximately 30–50 bases) to maintain computational simplicity and clarity of interpretation. The encoding scheme treats all nucleotide substitutions equally and does not differentiate between types of mutations or their biological impact. These design choices were made to align the implementation with the scope and methodology of the accompanying research paper.
+
+Overall, this repository serves as a computational companion to the paper, demonstrating how concepts from linear algebra can be applied to genetic sequence data in a controlled and simplified setting.
